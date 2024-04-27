@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header /> {/* Render the Header component */}
+        <Header />
         <Routes>
           {" "}
           <Route exact path="/" element={<Body />} />{" "}
